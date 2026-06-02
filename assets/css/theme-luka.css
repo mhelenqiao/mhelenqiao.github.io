@@ -38,25 +38,27 @@ body.theme-luka .download-buttons {
 }
 
 body.theme-luka .download-btn {
+body.theme-luka .download-btn {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  padding: 8px 18px;
-  border: 1.5px solid var(--luka-accent);
+  padding: 9px 20px;
+  background: var(--luka-accent);
+  border: none;
   border-radius: 6px;
-  color: var(--luka-accent) !important;
+  color: #fff !important;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none !important;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 body.theme-luka .download-btn:hover {
-  background: var(--luka-accent);
-  color: #fff !important;
+  opacity: 0.85;
+  transform: translateY(-1px);
   filter: none;
 }
-
+   
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --luka-bg: #1a1917;
