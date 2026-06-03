@@ -573,3 +573,33 @@ body.theme-luka strong {
     font-size: 13px;
   }
 }
+
+body.theme-luka .back-to-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--luka-accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  z-index: 999;
+}
+
+body.theme-luka .back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+body.theme-luka .back-to-top:hover {
+  transform: translateY(-3px);
+}
