@@ -53,6 +53,9 @@
           <a href="https://www.linkedin.com/in/helen-mengxuan-qiao/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
+      <button id="backToTop" class="back-to-top" title="Back to top" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
     </header>
 
     <section class="content">
@@ -321,6 +324,14 @@
         });
       }
     })();
+
+    const btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', function() {
+    btn.classList.toggle('visible', window.scrollY > 300);
+  });
+  btn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
   </script>
 </body>
 </html>
