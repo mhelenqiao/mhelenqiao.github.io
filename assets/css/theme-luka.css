@@ -328,6 +328,13 @@ body.theme-luka .section-title {
    font-family: "Playfair Display", Georgia, serif;
 }
 
+body.theme-luka .site-tagline {
+  margin: 0 0 12px;
+  color: var(--luka-secondary);
+  font-size: 14px;
+  font-family: "Neuton", Georgia, serif;
+}
+
 body.theme-luka .section-body p {
   margin: 0 0 14px;
 }
