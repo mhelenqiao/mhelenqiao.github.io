@@ -329,10 +329,14 @@ body.theme-luka .section-title {
 }
 
 body.theme-luka .site-tagline {
-  margin: 0 0 12px;
-  color: var(--luka-secondary);
-  font-size: 14px;
-  font-family: "Neuton", Georgia, serif;
+  display: inline-block;
+  margin: 0 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--luka-accent);
+  color: var(--luka-accent);
+  font-size: 17px;
+  font-weight: 600;
+   font-family: "Playfair Display", Georgia, serif;
 }
 
 body.theme-luka .section-body p {
