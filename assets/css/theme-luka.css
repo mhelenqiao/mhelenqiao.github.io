@@ -121,6 +121,8 @@ body.theme-luka a:hover {
   filter: brightness(1.15);
 }
 
+font-family: "Courier Prime", "Courier New", Courier, monospace;
+
 body.theme-luka .top-nav {
   position: fixed;
   top: 0;
