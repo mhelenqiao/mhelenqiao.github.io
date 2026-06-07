@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Ubuntu+Mono&display=swap');
 
 body {
-  font: 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 19px/1.65 "Courier Prime", "Courier New", Courier, monospace;
   color: #595959;
   font-weight: 400;
 }
