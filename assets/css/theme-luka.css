@@ -190,6 +190,11 @@ body.theme-luka .wrapper {
   min-height: 100vh;
 }
 
+body.theme-luka .name-light {
+  color: var(--luka-secondary);
+  font-weight: 300;
+}
+
 body.theme-luka .sidebar {
   width: 320px;
   flex-shrink: 0;
