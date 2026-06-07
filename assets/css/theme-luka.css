@@ -329,10 +329,6 @@ body.theme-luka .section-title {
 }
 
 body.theme-luka .site-tagline {
-  display: inline-block;
-  margin: 0 0 18px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid var(--luka-accent);
   color: var(--luka-accent);
   font-size: 17px;
   font-weight: 600;
