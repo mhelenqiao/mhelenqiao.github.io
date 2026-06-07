@@ -329,10 +329,12 @@ body.theme-luka .section-title {
 }
 
 body.theme-luka .site-tagline {
-  color: var(--luka-accent);
-  font-size: 17px;
-  font-weight: 600;
-   font-family: "Playfair Display", Georgia, serif;
+  margin: 0 0 12px;
+  color: var(--luka-secondary);
+  font-size: 13px;
+  font-family: "IM Fell English", Georgia, serif;
+  font-style: italic;
+  text-decoration: none;
 }
 
 body.theme-luka .section-body p {
