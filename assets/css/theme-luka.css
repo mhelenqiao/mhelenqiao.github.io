@@ -442,8 +442,12 @@ body.theme-luka .project-card {
 }
 
 body.theme-luka .pub-content .author,
-body.theme-luka .pub-content .title,
 body.theme-luka .pub-content .periodical {
+  font-size: 15px;
+  font-style: normal;
+}
+
+body.theme-luka .pub-content .title {
   font-family: "IM Fell English", Georgia, serif;
   font-size: 15px;
   font-style: normal;
