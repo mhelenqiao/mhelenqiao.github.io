@@ -529,6 +529,7 @@ body.theme-luka .site-footer p {
   border-top: 1px solid var(--luka-footer-border);
   color: var(--luka-secondary);
   font-size: 13px;
+   font-family: "IM Fell English", Georgia, serif;
 }
 
 body.theme-luka .template-credit {
