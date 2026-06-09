@@ -466,7 +466,6 @@ body.theme-luka .publications ol.bibliography {
 body.theme-luka .publications ol.bibliography li {
   margin-bottom: 14px;
   padding: 15px 0 15px 16px;
-  border-left: 3px solid var(--luka-accent);
 }
 
 body.theme-luka .pub-content .title {
