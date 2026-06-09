@@ -491,6 +491,7 @@ body.theme-luka .flip-card-img {
   min-height: 0;
 }
 
+
 body.theme-luka .flip-card-title {
   padding: 10px 14px;
   font-size: 13px;
@@ -499,6 +500,11 @@ body.theme-luka .flip-card-title {
   line-height: 1.4;
   background: var(--luka-social-bg);
   border-top: 1px solid var(--luka-border);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 body.theme-luka .flip-card-back {
@@ -512,9 +518,17 @@ body.theme-luka .flip-card-back {
   box-shadow: 0 2px 12px var(--luka-shadow);
 }
 
+body.theme-luka .flip-card-back-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 body.theme-luka .flip-card-back p {
   margin: 0;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.65;
   color: #fff;
 }
