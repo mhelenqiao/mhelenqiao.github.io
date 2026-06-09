@@ -356,6 +356,7 @@ body.theme-luka .site-tagline {
   font-family: "IM Fell English", Georgia, serif;
   font-style: normal;
   text-decoration: none;
+   font-weight: 600;
 }
 
 body.theme-luka .section-body p {
@@ -424,6 +425,7 @@ body.theme-luka .experience-content p {
 body.theme-luka .exp-title {
   font-size: 15px;
   color: var(--luka-text);
+   font-weight: 600;
 }
 
 body.theme-luka .exp-detail {
