@@ -480,17 +480,23 @@ body.theme-luka .pub-content .author {
   margin-bottom: 4px;
   color: var(--luka-secondary);
   font-size: 14px;
+   font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
 }
 
 body.theme-luka .pub-content .periodical {
   margin-bottom: 6px;
   color: var(--luka-secondary);
   font-size: 14px;
+   font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
 }
 
 body.theme-luka .pub-content .links a {
   font-size: 13px;
   font-weight: 500;
+   font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
 }
 
 body.theme-luka .awards-grid {
