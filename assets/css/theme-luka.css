@@ -183,6 +183,7 @@ body.theme-luka .nav-left a:hover {
   color: var(--luka-accent);
   filter: none;
 }
+
 body.theme-luka .theme-toggle {
   border: none;
   background: transparent;
@@ -257,7 +258,7 @@ body.theme-luka .site-name {
   color: var(--luka-text);
   font-size: 28px;
   line-height: 1.2;
-   font-family: "Playfair Display", Georgia, serif;
+   font-family: "IM Fell English", Georgia, serif;
 }
 
 body.theme-luka .site-email {
