@@ -382,16 +382,17 @@
       }
     })();
 
-    const btn = document.getElementById('backToTop');
+  const btn = document.getElementById('backToTop');
   window.addEventListener('scroll', function() {
     btn.classList.toggle('visible', window.scrollY > 300);
   });
   btn.addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
-    window.addEventListener('load', function() {
-      window.scrollTo(0, 0);
-    });
-  </script>
+  history.scrollRestoration = 'manual';
+  window.addEventListener('load', function() {
+    window.scrollTo(0, 0);
+  });
+</script>
 </body>
 </html>
