@@ -170,11 +170,12 @@ body.theme-luka .nav-brand {
 }
 
 body.theme-luka .nav-brand .nav-name {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   color: var(--luka-text);
   text-decoration: none;
   opacity: 1;
+  font-family: "IM Fell English", Georgia, serif;
 }
 
 body.theme-luka .nav-brand .nav-name:hover {
