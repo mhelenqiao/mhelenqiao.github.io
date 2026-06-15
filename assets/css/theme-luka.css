@@ -174,7 +174,7 @@ body.theme-luka .nav-brand .nav-name {
   color: var(--luka-text);
   text-decoration: none;
   opacity: 1;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Young Serif", serif;
   font-weight: 700;
   font-style: normal
 }
@@ -278,7 +278,7 @@ body.theme-luka .site-name {
   color: var(--luka-text);
   font-size: 28px;
   line-height: 1.2;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Young Serif", serif;
 }
 
 body.theme-luka .site-email {
@@ -366,7 +366,7 @@ body.theme-luka .section-title {
   color: var(--luka-accent);
   font-size: 19px;
   font-weight: 600;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Young Serif", serif;
   font-style: normal
 }
 
@@ -582,76 +582,6 @@ body.theme-luka .flip-card-back p {
   body.theme-luka .flip-card {
     height: 240px;
   }
-}
-
-body.theme-luka .pub-content .author,
-body.theme-luka .pub-content .periodical {
-  font-size: 15px;
-  font-style: normal;
-}
-
-body.theme-luka .pub-content .title {
-  font-size: 15px;
-  font-style: normal;
-}
-
-body.theme-luka .publications ol.bibliography {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-body.theme-luka .publications ol.bibliography li {
-  margin-bottom: 5px;
-  padding: 15px 0 15px 16px;
-}
-
-body.theme-luka .pub-content .title {
-  margin-bottom: 4px;
-  color: var(--luka-text);
-  font-size: 15px;
-  font-weight: 600;
-}
-
-body.theme-luka .pub-content .author {
-  margin-bottom: 4px;
-  color: var(--luka-secondary);
-  font-size: 14px;
-}
-}
-
-body.theme-luka .pub-content .periodical {
-  margin-bottom: 6px;
-  color: var(--luka-secondary);
-  font-size: 14px;
-}
-
-body.theme-luka .pub-content .links a {
-  font-size: 13px;
-  font-weight: 500;
-}
-
-body.theme-luka .awards-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-body.theme-luka .award-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 4px 0;
-}
-
-body.theme-luka .award-icon {
-  flex-shrink: 0;
-  font-size: 20px;
-}
-
-body.theme-luka .award-text {
-  color: var(--luka-text);
-  font-size: 14px;
 }
 
 body.theme-luka .site-footer {
