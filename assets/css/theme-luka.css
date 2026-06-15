@@ -47,7 +47,7 @@ body.theme-luka .download-btn {
   border: none;
   border-radius: 6px;
   color: #fff !important;
-   font-family: "Playfair Display", Georgia, serif;
+   font-family: "Ubuntu Mono", "SFMono-Regular", monospace;
   font-size: 12px;
   font-weight: 400;
   text-decoration: none !important;
