@@ -419,12 +419,12 @@ body.theme-luka .timeline-item::after {
 body.theme-luka .experience-item {
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 20px;
 }
 
 body.theme-luka .institution-logo {
-  width: 52px;
-  height: 52px;
+  width: 45px;
+  height: 45px;
   flex-shrink: 0;
 }
 
