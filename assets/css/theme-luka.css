@@ -1,8 +1,3 @@
-/* ============================================
-   Luka Homepage
-   Warm minimal academic homepage template
-   ============================================ */
-
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
@@ -20,7 +15,7 @@ body.theme-luka *::after {
 }
 
 :root {
-  --luka-bg: #f1f2ee;
+  --luka-bg: #f7f7f7;
   --luka-text: #353434;
   --luka-accent: #696562;
   --luka-secondary: #70655c;
@@ -29,54 +24,6 @@ body.theme-luka *::after {
   --luka-social-bg: #f7f7f4;
   --luka-social-text: #696562;
   --luka-footer-border: rgba(83, 79, 72, 0.12);
-}
-
-body.theme-luka .download-buttons {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 4px;
-}
-
-body.theme-luka .download-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 9px 20px;
-  background: var(--luka-accent);
-  border: none;
-  border-radius: 6px;
-  color: #fff !important;
-   font-family: "Ubuntu Mono", "SFMono-Regular", monospace;
-  font-size: 12px;
-  font-weight: 400;
-  text-decoration: none !important;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-body.theme-luka .download-btn:hover {
-  opacity: 0.85;
-  transform: translateY(-1px);
-  filter: none;
-}
-
-
-@media (max-width: 640px) {
-  body.theme-luka .nav-left {
-    gap: 14px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 2px;
-  }
-
-  body.theme-luka .nav-left a {
-    font-size: 12px;
-    white-space: nowrap;
-  }
-
-  body.theme-luka .nav-container {
-    padding: 0 12px;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -106,7 +53,7 @@ body.theme-luka .download-btn:hover {
 }
 
 [data-theme="light"] {
-  --luka-bg: #f1f2ee;
+  --luka-bg: #f7f7f7;
   --luka-text: #353434;
   --luka-accent: #696562;
   --luka-secondary: #70655c;
@@ -130,6 +77,24 @@ body.theme-luka a {
   color: var(--luka-accent);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  body.theme-luka .nav-left {
+    gap: 14px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 2px;
+  }
+
+  body.theme-luka .nav-left a {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  body.theme-luka .nav-container {
+    padding: 0 12px;
+  }
 }
 
 body.theme-luka .nav-left a,
@@ -191,7 +156,7 @@ body.theme-luka .nav-left {
 
 body.theme-luka .nav-left a {
   color: var(--luka-text);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   text-decoration: none;
   opacity: 0.75;
@@ -337,6 +302,35 @@ body.theme-luka .visitor-card-title {
 body.theme-luka .visitor-card-body {
   font-size: 13px;
   line-height: 1.6;
+}
+
+body.theme-luka .download-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+body.theme-luka .download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 20px;
+  background: var(--luka-accent);
+  border: none;
+  border-radius: 6px;
+  color: #fff !important;
+   font-family: "Ubuntu Mono", "SFMono-Regular", monospace;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none !important;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+body.theme-luka .download-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+  filter: none;
 }
 
 body.theme-luka .content {
