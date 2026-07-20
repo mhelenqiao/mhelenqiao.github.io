@@ -163,114 +163,73 @@
       <div class="section" id="projects">
         <h2 class="section-title">Research</h2>
         <div class="section-body">
-          <div class="project-grid">
-
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="assets/img/project_bayesian.png" alt="Bayesian Legal Reasoning" class="flip-card-img">
-                  <div class="flip-card-title">Bayesian and Coherence-Based Models</div>
+          <p class="research-intro">My research investigates how people reason with evidence, construct narratives, and assign responsibility—especially in legal and AI-assisted contexts.</p>
+          <div class="research-layout">
+            <div class="research-diagram-wrap" id="researchDiagram">
+              <svg class="research-svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+                <line x1="50" y1="50" x2="50" y2="14" class="research-line"/>
+                <line x1="50" y1="50" x2="83" y2="29" class="research-line"/>
+                <line x1="50" y1="50" x2="83" y2="71" class="research-line"/>
+                <line x1="50" y1="50" x2="50" y2="86" class="research-line"/>
+                <line x1="50" y1="50" x2="17" y2="71" class="research-line"/>
+                <line x1="50" y1="50" x2="17" y2="29" class="research-line"/>
+              </svg>
+              <div class="rnode rnode-center" data-project="center">
+                <i class="fa-solid fa-brain"></i>
+                <span>Human Reasoning &times; Legal AI &times; Evidence Evaluation</span>
+              </div>
+              <div class="rnode rnode-outer" data-project="bayesian" style="left:50%;top:13%">
+                <i class="fa-solid fa-diagram-project"></i>
+                <span>Bayesian and Coherence-Based Models</span>
+              </div>
+              <div class="rnode rnode-outer" data-project="ceg" style="left:83%;top:28%">
+                <i class="fa-solid fa-share-nodes"></i>
+                <span>Chain Event Graphs for Narrative Reasoning</span>
+              </div>
+              <div class="rnode rnode-outer" data-project="belief" style="left:83%;top:72%">
+                <i class="fa-solid fa-rotate"></i>
+                <span>Probabilistic Belief Updating</span>
+              </div>
+              <div class="rnode rnode-outer" data-project="prior" style="left:50%;top:87%">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Prior Beliefs and Evidential Reasoning</span>
+              </div>
+              <div class="rnode rnode-outer" data-project="causal" style="left:17%;top:72%">
+                <i class="fa-solid fa-scale-balanced"></i>
+                <span>Causal Responsibility Attribution</span>
+              </div>
+              <div class="rnode rnode-outer" data-project="ai" style="left:17%;top:28%">
+                <i class="fa-solid fa-robot"></i>
+                <span>AI Alignment of Decision-Making</span>
+              </div>
+            </div>
+            <div class="research-panel" id="researchPanel">
+              <button class="research-panel-close" id="researchPanelClose"><i class="fa-solid fa-xmark"></i></button>
+              <div class="research-panel-header">
+                <div class="research-panel-icon-wrap"><i class="fa-solid research-panel-icon"></i></div>
+                <h3 class="research-panel-title"></h3>
+              </div>
+              <div class="research-panel-body">
+                <div class="research-panel-row" id="rpCoreQ">
+                  <i class="fa-regular fa-circle-question rp-row-icon"></i>
+                  <div><strong>Core Question</strong><p></p></div>
                 </div>
-                <div class="flip-card-back">
-                  <div class="flip-card-back-body">
-                    <p>Towards a unified model reconciling Bayesian inference with coherence-based reasoning to capture how jurors evaluate evidence and reach verdicts, in collaboration with Keith Holyoak (UCLA).</p>
-                  </div>
-                  <div class="flip-card-back-title">Bayesian and Coherence-Based Models</div>
+                <div class="research-panel-row" id="rpApproach">
+                  <i class="fa-solid fa-share-nodes rp-row-icon"></i>
+                  <div><strong>Approach</strong><p></p></div>
+                </div>
+                <div class="research-panel-row" id="rpApplication">
+                  <i class="fa-solid fa-scale-balanced rp-row-icon"></i>
+                  <div><strong>Application</strong><p></p></div>
+                </div>
+                <div class="research-panel-row" id="rpStatus">
+                  <i class="fa-regular fa-clock rp-row-icon"></i>
+                  <div><strong>Status</strong><p></p></div>
                 </div>
               </div>
             </div>
-
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="assets/img/project_ceg.png" alt="Chain Event Graphs" class="flip-card-img">
-                  <div class="flip-card-title">Chain Event Graphs for Narrative Reasoning</div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="flip-card-back-body">
-                    <p>A normative framework formalising the role of stories in legal decision-making using Chain Event Graphs, in collaboration with statistician James Smith (University of Warwick).</p>
-                  </div>
-                <div class="flip-card-back-title">Chain Event Graphs for Narrative Reasoning</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="assets/img/project_belief.png" alt="Belief Updating" class="flip-card-img">
-                  <div class="flip-card-title">Probabilistic Belief Updating</div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="flip-card-back-body">
-                    <p>An empirical investigation of how people revise beliefs in response to evidence in legal contexts.</p>
-                  </div>
-                <div class="flip-card-back-title">Probabilistic Belief Updating</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="assets/img/project_ai.png" alt="AI Alignment" class="flip-card-img">
-                  <div class="flip-card-title">AI Alignment of Decision-Making</div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="flip-card-back-body">
-                    <p>Examining how AI systems can be aligned with human legal reasoning across probabilistic, binary, and argumentation-based decision frameworks, in collaboration with Utrecht University.</p>
-                  </div>
-                <div class="flip-card-back-title">AI Alignment of Decision-Making</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="assets/img/project_causal.png" alt="Causal Responsibility" class="flip-card-img">
-                  <div class="flip-card-title">Causal Responsibility Attribution in Human and AI</div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="flip-card-back-body">
-                    <p>Investigating how people assign moral and legal responsibility in causal chains involving human actors and AI agents, in collaboration with the University of Utah and LSE.</p>
-                  </div>
-                 <div class="flip-card-back-title">Causal Responsibility Attribution in Human and AI</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="assets/img/project_prior.png" alt="Prior Beliefs" class="flip-card-img">
-                  <div class="flip-card-title">Prior Beliefs and Evidential Reasoning</div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="flip-card-back-body">
-                    <p>Investigating how pre-existing beliefs and prior expectations shape the way people evaluate evidence across different categories of criminal cases, in collaboration with Glasgow Caledonian University.</p>
-                  </div>
-                <div class="flip-card-back-title">Prior Beliefs and Evidential Reasoning</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="assets/img/project_nde.png" alt="Non-deceptive Editing" class="flip-card-img">
-                  <div class="flip-card-title">Non-Deceptive Editing and Evidence Credibility</div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="flip-card-back-body">
-                    <p>Investigating how non-deceptive edits to user-generated evidence affect perceptions of its credibility, reliability, and admissibility in court, in collaboration with Queen's University Belfast.</p>
-                  </div>
-                <div class="flip-card-back-title">Non-Deceptive Editing and Evidence Credibility</div>
-                </div>
-              </div>
-            </div>
-
           </div>
+          <p class="research-hint">&#8212; <i class="fa-regular fa-hand-pointer"></i> Hover over a topic to explore &#8212;</p>
         </div>
       </div>
 
@@ -334,6 +293,86 @@
   history.scrollRestoration = 'manual';
   window.addEventListener('load', function() {
     window.scrollTo(0, 0);
+
+        var researchData = {
+      bayesian: {
+        title: 'Bayesian and Coherence-Based Models',
+        icon: 'fa-diagram-project',
+        coreQuestion: 'How do jurors combine probabilistic evidence with coherent narratives when reaching verdicts?',
+        approach: 'Integrates Bayesian inference with coherence-based reasoning models to capture both statistical and narrative considerations.',
+        application: 'Legal evidence evaluation, jury decision-making, and AI-assisted legal reasoning.',
+        status: 'Ongoing research in collaboration with Keith Holyoak (UCLA).'
+      },
+      ceg: {
+        title: 'Chain Event Graphs for Narrative Reasoning',
+        icon: 'fa-share-nodes',
+        coreQuestion: 'How can formal graph structures capture the role of narratives in legal reasoning?',
+        approach: 'A normative framework using Chain Event Graphs to formalise story-based inference in legal decision-making.',
+        application: 'Judicial reasoning and legal argument formalisation.',
+        status: 'In collaboration with James Smith (University of Warwick).'
+      },
+      belief: {
+        title: 'Probabilistic Belief Updating',
+        icon: 'fa-rotate',
+        coreQuestion: 'How do people revise their beliefs when presented with new evidence?',
+        approach: 'Empirical investigation using experimental methods to measure belief revision processes.',
+        application: 'Evidence evaluation in legal and everyday reasoning contexts.',
+        status: 'Ongoing empirical research.'
+      },
+      prior: {
+        title: 'Prior Beliefs and Evidential Reasoning',
+        icon: 'fa-magnifying-glass',
+        coreQuestion: 'How do pre-existing beliefs shape evaluation of evidence across different crime types?',
+        approach: 'Experimental studies examining how prior expectations influence evidential reasoning.',
+        application: 'Criminal evidence evaluation and jury decision-making.',
+        status: 'In collaboration with Glasgow Caledonian University.'
+      },
+      causal: {
+        title: 'Causal Responsibility Attribution',
+        icon: 'fa-scale-balanced',
+        coreQuestion: 'How do people assign moral and legal responsibility in causal chains involving AI agents?',
+        approach: 'Experimental studies on causal and moral attribution in human–AI hybrid action sequences.',
+        application: 'AI accountability, legal liability, and moral responsibility frameworks.',
+        status: 'In collaboration with the University of Utah and LSE.'
+      },
+      ai: {
+        title: 'AI Alignment of Legal Decision-Making',
+        icon: 'fa-robot',
+        coreQuestion: 'Can AI systems be aligned with human legal reasoning across different decision frameworks?',
+        approach: 'Examining alignment across probabilistic, binary, and argumentation-based decision frameworks.',
+        application: 'AI system design for legal contexts and computational law.',
+        status: 'In collaboration with Utrecht University and the University of Groningen.'
+      }
+    };
+
+    function openResearchPanel(id) {
+      var d = researchData[id];
+      if (!d) return;
+      var panel = document.getElementById('researchPanel');
+      panel.querySelector('.research-panel-title').textContent = d.title;
+      var iconEl = panel.querySelector('.research-panel-icon');
+      iconEl.className = 'fa-solid ' + d.icon + ' research-panel-icon';
+      panel.querySelector('#rpCoreQ p').textContent = d.coreQuestion;
+      panel.querySelector('#rpApproach p').textContent = d.approach;
+      panel.querySelector('#rpApplication p').textContent = d.application;
+      panel.querySelector('#rpStatus p').textContent = d.status;
+      panel.classList.add('open');
+      document.querySelectorAll('.rnode').forEach(function(n) { n.classList.remove('active'); });
+      var activeNode = document.querySelector('.rnode[data-project="' + id + '"]');
+      if (activeNode) activeNode.classList.add('active');
+    }
+
+    document.querySelectorAll('.rnode[data-project]').forEach(function(node) {
+      node.addEventListener('mouseenter', function() {
+        var id = this.getAttribute('data-project');
+        if (id !== 'center') openResearchPanel(id);
+      });
+    });
+
+    document.getElementById('researchPanelClose').addEventListener('click', function() {
+      document.getElementById('researchPanel').classList.remove('open');
+      document.querySelectorAll('.rnode').forEach(function(n) { n.classList.remove('active'); });
+    });
   });
 </script>
 
