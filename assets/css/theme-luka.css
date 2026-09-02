@@ -494,6 +494,16 @@ body.theme-luka .research-item-desc {
   color: var(--luka-text);
 }
 
+body.theme-luka .research-item-pub {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: var(--luka-text);
+}
+
+body.theme-luka .research-item-pub a {
+  font-style: italic;
+}
+
 body.theme-luka .research-tags {
   display: flex;
   flex-wrap: wrap;
