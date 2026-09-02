@@ -633,7 +633,6 @@ body.theme-luka .research-item-title {
   font-weight: 700;
   line-height: 1.35;
   color: var(--luka-text);
-  font-family: "Inter", sans-serif;
 }
 
 body.theme-luka .research-item-desc {
