@@ -494,6 +494,25 @@ body.theme-luka .research-item-desc {
   color: var(--luka-text);
 }
 
+body.theme-luka .research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+body.theme-luka .research-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border: 1px solid var(--luka-border);
+  border-radius: 999px;
+  background: var(--luka-social-bg);
+  color: var(--luka-secondary);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
 body.theme-luka .research-links {
   display: flex;
   flex-wrap: wrap;
