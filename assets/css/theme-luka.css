@@ -629,7 +629,7 @@ body.theme-luka .research-item:last-child {
 
 body.theme-luka .research-item-title {
   margin: 0 0 6px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.35;
   color: var(--luka-text);
@@ -638,7 +638,7 @@ body.theme-luka .research-item-title {
 
 body.theme-luka .research-item-desc {
   margin: 0;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.65;
   color: var(--luka-text);
 }
